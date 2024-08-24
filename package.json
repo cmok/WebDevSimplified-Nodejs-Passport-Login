@@ -1,25 +1,28 @@
 {
-  "name": "current-project",
+  "name": "webdevsimplified-nodejs-passport-login",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "[YouTube Video](https://youtu.be/-RCnNyD0L-s?si=Y62c3oNMjCsXoW5n)",
+  "main": "passport-config.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
-    "ejs": "^2.6.2",
-    "express": "^4.17.1",
-    "express-flash": "0.0.2",
-    "express-session": "^1.16.2",
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.18.0",
     "method-override": "^3.0.0",
-    "passport": "^0.4.0",
+    "passport": "^0.7.0",
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "dotenv": "^8.0.0",
-    "nodemon": "^1.19.1"
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4"
   }
 }
